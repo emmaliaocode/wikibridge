@@ -2,7 +2,7 @@
   "name": "wikibridge",
   "description": "Capture Confluence pages to Notion or local Markdown.",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "wxt",
