@@ -1,0 +1,40 @@
+{
+  "name": "wikibridge",
+  "description": "Capture Confluence pages to Notion or local Markdown.",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.42",
+    "@types/mdast": "^4.0.4",
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitest/ui": "^4.1.7",
+    "@wxt-dev/module-react": "^1.1.5",
+    "msw": "^2.14.6",
+    "typescript": "^5.9.3",
+    "unified": "^11.0.5",
+    "vitest": "^4.1.7",
+    "wxt": "^0.20.26"
+  }
+}
